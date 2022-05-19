@@ -7,7 +7,7 @@ export default function Header() {
         <header className={styles.header}>
             <div className={styles.logo}>
                 <Link href="/">
-                    <a>Sport news</a>
+                    <a>Feedly</a>
                 </Link>
             </div>
             <nav>

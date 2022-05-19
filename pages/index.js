@@ -36,7 +36,6 @@ export default function Home({ news }) {
 
 export async function getServerSideProps() {
   const res = await fetch(`${API_URL}/api/news/data`)
-  // console.log(res);
   const news = await res.json();
   return {
     props: { news: news.slice(0, 5) },
